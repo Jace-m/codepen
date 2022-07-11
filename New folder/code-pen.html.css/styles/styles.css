@@ -1,0 +1,152 @@
+
+.navigation-wrapper{
+    display: flex;  
+    height:100px;
+    padding: 1px 20px;
+    background-color:black;
+    color:white;
+}
+
+.links-wrapper {
+    display:flex;
+    justify-content: space-between;
+    width: 400px;
+    font-size:1.2em;
+}
+.nav-link-spark{
+    color:grey;
+}
+
+.Codepen-logo{
+    padding-right:30px;
+}
+body {
+    margin: 0px;
+    background-color: black;
+}
+
+.left-column {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation-wrapper {
+    display:flex;
+    justify-content: space-between;
+}
+
+h1 {
+    color:#cea135;
+    font-size:1rem;
+    margin-right:20px;
+}
+
+.right-column{
+   margin-top:55px;
+   align-items: right;
+}
+
+.box-wrapper {
+    display:flex;
+    justify-content: space-between;
+    width: 400px;
+    font-size:1.2em;
+}
+
+.Box a{
+    text-decoration:none;
+    color:white;
+    padding: 10px 25px;
+    background-color: rgb(78, 73, 73);
+    justify-content:space-around;
+    border-radius:0.25rem;
+}
+.page-wrapper{
+    padding-top:50px;
+    padding-left:50px;
+    padding-bottom:60px;
+    background-image: linear-gradient(to right bottom, #484848, #161616);
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+.first-paragraph{
+    color:grey;
+    font-size:2em;
+
+}
+
+.first-paragraph mark{
+    color:white;
+    background-color: transparent;
+    font-weight:bold;
+}
+.second-paragraph{
+    color:grey;
+    font-size:2em;
+    padding-bottom:40px;
+}
+.left-page{
+    width:600px;
+}
+.boxes{
+    display:flex;
+    grid-template-rows: 1fr 1fr;
+}
+.sign-up-box{
+    text-decoration: none;
+    color:black;
+    padding:20px 25px;
+    background-color: rgb(58, 180, 58);
+    border-radius: 0.25rem;
+    font-size:1.9em;
+}
+.Learn-more-box{
+    text-decoration: none;
+    color:white;
+    padding:20px 50px;
+    margin-left:20px;
+    background-color:black;
+    border-radius: 0.25rem;
+    font-size:1.9em;
+}
+.img-title{
+color:white;
+padding-left:160px;
+font-size:1.3em;
+}
+.img-title mark{
+    color:lightseagreen;
+    background-color: transparent;
+    font-weight:bold;
+}
+.Code-picture{
+    margin-left:170px;
+}
+.footer {
+    display:grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    background-color:#5d5353;
+    color:white;;
+    text-align: center;
+    font-size:1.25em;
+}
+.footer mark{
+    color:white;
+    background-color:transparent;
+    font-weight:bolder;
+}
+
+.teams{
+border: 2px solid rgb(138, 123, 123);
+}
+.education{
+    border: 2px solid rgb(138, 123, 123);
+}
+.privacy{
+    border: 2px solid rgb(138, 123, 123);
+}
+.writing{
+    border: 2px solid rgb(138, 123, 123);
+}
